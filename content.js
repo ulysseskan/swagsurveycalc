@@ -1,3 +1,13 @@
+/* Browser extension that calculates the hourly wage Swagbucks pays you for taking surveys,
+highlighting the survey that pays the most.
+
+Author: Ulysses
+Link: https://github.com/ulysseskan/swagsurveycalc
+Creation: March 2023
+
+Offered AS IS, with no support
+*/
+
 const eltable = document.getElementById('surveyList')
 
 // Update table header
