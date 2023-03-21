@@ -67,7 +67,8 @@ I offer no support for using this extension.
 
 ## Legal
 
-I am in no way affiliated with Swagbucks.  It is offered "as is".
+I am in no way affiliated with Prodege and/or Swagbucks.  This extension and all associated code
+is offered "as is".
 
 ## License
 
@@ -80,4 +81,3 @@ Project Link: [https://github.com/ulysseskan/swagsurveycalc](https://github.com/
 ## Acknowledgments
 
 * OpenAI's ChatGPT software for help bringing this idea to life and for help debugging it.
-
