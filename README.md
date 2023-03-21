@@ -5,35 +5,32 @@ highlighting the survey that pays the most.
 
 ## About
 
-Prodege offers money for taking surveys.  They usually pay you less than half the United States
-minimum wage.  Occasionally surveys pop up that are at are more highly paid, for example, $20/hour,
-$30/hour, or higher.
+Prodege's Swagbucks site offers money for taking surveys.  They usually pay you less than half the United States
+minimum wage.  Occasionally higher paid surveys pop up, for example, $20/hour,
+$30/hour, and beyond.
 
 The problem is, they don't show you the hourly wage.  And the survey order is usually random.  They
 show you an amount you get paid in "Swagbucks", and an approximate time it takes to complete the
 survey.
 
 If you know how much 1 Swagbuck is equal to (usually 1 SB = .01 USD), you can calculate the hourly
-wage and see if it's worth spending time on.
+wage and see if it's worth spending time on.  This extension does this job automatically for you for each
+survey row, adding a new **Hourly Wage column** to the surveys page, and **highlights the top paid survey
+in green**, like so:
 
-This extension does this automatically for you, adding a new Hourly Wage column to the surveys page,
-and highlights the top paid survey, like so:
-
-
-
-<img>
+<img src="https://github.com/ulysseskan/swagsurveycalc/blob/main/swagsurvey-extension-screenshot.png">
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-1. ```[git](https://git-scm.com/downloads) clone https://github.com/ulysseskan/swagsurveycalc.git```
-2. Open browser > settings > Extensions > toggle `Developer mode`
+1. ```git clone https://github.com/ulysseskan/swagsurveycalc.git```
+2. Open Browser > Settings > Extensions > Toggle `Developer mode`
 3. Click Load unpacked, and select the swagsurveycalc folder, then go to the Swagbucks survey page
 
 ### Prerequisites
 
 * You must be using a Chromium-based browser (Chrome, Brave, etc.)
-* You must be logged into the Swagbucks site and be on the surveys page
+* You must be logged into the Swagbucks site, be on the surveys page, and be using a laptop/desktop
 
 ### Privacy
 
@@ -57,6 +54,7 @@ there's a lot of actual demand.
 - [ ] Allow users to specify what 1 SB is equal to in their country's currency
 - [ ] Add an icon
 - [ ] Pack & publish to Chrome web store for easier installation/updates
+- [ ] Add a version for Safari (which would also work on Mobile Safari)
 
 ## Payment
 
