@@ -1,11 +1,11 @@
 {
   "name": "Swagbucks Survey Wage Calculator",
   "description": "Calculates hourly wage for Swagbucks surveys, highlighting the top paying one.",
-  "version": "0.8",
+  "version": "0.9",
   "manifest_version": 3,
   "content_scripts": [
     {
-      "matches": ["https://www.swagbucks.com/surveys*"],
+      "matches": ["https://www.swagbucks.com/surveys"],
       "js": ["content.js"]
     }
   ]
