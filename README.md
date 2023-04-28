@@ -46,6 +46,8 @@ surveys.  This extension does not currently account for these additional surveys
 be fixed by using the MutationObserver API to watch for rare extendedSurvey nodes.  This would
 have a small performance impact and bloat the code a bit, so I'm not going to do it unless
 there's a lot of actual demand.
+- [ ] Swagbucks added a new preference that shows SB per minute.  If this pref is enabled,
+the hourly wage calculation is incorrect.  I plan to fix this.
 
 ## Potential Improvements
 
